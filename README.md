@@ -8,7 +8,7 @@ Clasa User si mostenirile sale:
 referintele celor 2 useri, iar in tema se vor compara obiecte user cu nume
 identic, dar avand adrese diferite, va trebui sa le compar dupa nume.
 - UserFactory are o implementare similara celei din laborator.
-- 
+
 Clasa Grade:
 − Functia compareTo, impusa de implementarea interfetei Comparable
 compara Grade-urile dupa nota totala calculata prin suma dintre nota
