@@ -3,14 +3,17 @@ Clasa Catalog:
 − Am folosit design pattern-ul singleton, care imi asigura ca exista o singura
 instanta a catalogului in toata tema.
 Clasa User si mostenirile sale:
+
 - Am suprascris metoda equals deoarece metoda din clasa Object compara
 referintele celor 2 useri, iar in tema se vor compara obiecte user cu nume
 identic, dar avand adrese diferite, va trebui sa le compar dupa nume.
+
 - UserFactory are o implementare similara celei din laborator.
 Clasa Grade:
 − Functia compareTo, impusa de implementarea interfetei Comparable
 compara Grade-urile dupa nota totala calculata prin suma dintre nota
 partiala si in examen.
+
 Clasa Group:
 − Extinde o colectie ordonata(ArrayList).
 − Poate fi instantiata cu un comparator sau fara, comparator care sorteaza
